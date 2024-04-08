@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ml-pac"
+version = "0.1.0"
+description = ""
+authors = ["FarafonovLeonid <151352490+FarafonovLeonid@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "ml_pac"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ruff = "^0.3.5"
+numpy = "^1.26.4"
+pre-commit = "^3.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
